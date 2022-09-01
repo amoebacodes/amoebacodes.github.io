@@ -1,0 +1,35 @@
+.mypic {
+    width: 170px;
+    height: 170px;
+    object-fit: contain;
+    border-radius: 50%;
+
+}
+.head{
+    margin-top: 120px;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    gap:40px;
+    align-items:flex-start;
+}
+h1{
+    margin-bottom:0px;
+}
+p{
+    margin-top:10px;
+}
+.greetings{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+.summary {
+    margin-left: 50px;
+    margin-right:150px;
+    color: mistyrose;
+    font-family: 'Optima';
+    font-size: 40px;
+    text-align: left;
+}
