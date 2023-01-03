@@ -1,1 +1,6 @@
-<app-headline></app-headline>
+<app-navigation (toAnchor)="goToDiv($event)"></app-navigation>
+<app-headline id="headline"></app-headline>
+<mat-divider class="divider" id="skills" style="border-top-width: 5px"></mat-divider>
+<app-skills-banner class="banner"></app-skills-banner>
+<h2 class="pastProj" id="projects">Past Projects</h2>
+<app-projects-list></app-projects-list>

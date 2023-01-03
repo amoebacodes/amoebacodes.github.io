@@ -1,5 +1,8 @@
 html {
-    background-color: slategray;
+    background-color: rgb(45, 71, 98);
+}
+body {
+    margin: 0;
 }
 h1 {
     color: mistyrose;
@@ -10,4 +13,30 @@ h2 {
     color: mistyrose;
     font-family: 'Optima';
     font-size: 40px;
+}
+h3 {
+    font-family: 'Optima';
+}
+h4 {
+    font-family: 'Optima';
+}
+p {
+    font-family: 'Optima';
+}
+a {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Optima';
+}
+a:-webkit-any-link {
+    color: rgb(125, 147, 93);
+}
+a:visited {
+    color: rgb(194, 117, 108);
+}
+a:focus{
+    color: rgb(194, 117, 108);
+}
+* {
+    scroll-behavior: smooth;
 }

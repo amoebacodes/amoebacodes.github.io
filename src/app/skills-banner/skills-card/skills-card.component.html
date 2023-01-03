@@ -1,0 +1,20 @@
+<div class="card" (click)="flip()" (mouseleave)="flipToHide()" [@cardFlip]="mycard.state">
+    <div class="face back">
+        <h2 class="skillCategory">{{skillCategory}}</h2>
+    </div>
+    <div class="face front">
+        <div class='logos' *ngIf="skillCategory != 'Experimentation\nAutomation'">
+            <div *ngFor="let set of imageSets">
+                <app-logo-caption [imageDir] = set.imageDir [caption] = set.caption></app-logo-caption>
+            </div>
+        </div>
+        <div class='desc' *ngIf="skillCategory == 'Experimentation\nAutomation'">
+            <h3>Automated Liquid Handlers: </h3>
+            <h4>&emsp;OpenTrons, CyBio FeliX</h4>
+            <h3>Automated Fluorescence Microscope: </h3>
+            <h4>&emsp;Cx7</h4>
+            <h3>Automated qPCR Machine: </h3>
+            <h4>&emsp;QuantStudio 8</h4>
+        </div>
+    </div>
+</div>

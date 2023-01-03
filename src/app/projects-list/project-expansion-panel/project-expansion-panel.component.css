@@ -1,0 +1,35 @@
+.card {
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+}
+.projectTitle {
+    color: rgb(45, 71, 98);
+    font-size: 30px;
+}
+.projectSummary {
+    color: rgb(45, 71, 98);
+}
+.body{
+    display:flex;
+    flex-direction: row;
+}
+.tags{
+    display:flex;
+    flex-direction: column;
+    margin: 30px;
+}
+.desc {
+    color: rgb(45, 71, 98);
+    white-space: pre-wrap;
+    padding: 2%;
+    width: 70%
+}
+.panel {
+    background-color: rgb(241, 241, 241);
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,5 @@
+<mat-accordion class="card" multi="false">
+    <div *ngFor="let filename of projectFileNames; index as i">
+        <app-project-expansion-panel [filename]="filename" [i]="i"></app-project-expansion-panel>
+    </div>
+</mat-accordion>

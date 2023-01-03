@@ -1,0 +1,16 @@
+.banner{
+    display:block;
+    background-color: rgb(241, 241, 241);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.divider{
+    border-top-color: rgb(198, 214, 175);
+    margin-top: 50px;
+    width:100%;
+    
+}
+.pastProj {
+    margin: 50px;
+    padding-left: 70px;
+}
