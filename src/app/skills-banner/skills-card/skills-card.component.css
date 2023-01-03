@@ -58,11 +58,13 @@
     vertical-align: middle;
     height: 350px;
 }
-h3 {
-    color:rgb(45, 71, 98);
-    margin: 20px;
-}
 h4 {
     color:rgb(45, 71, 98);
     margin: 20px;
+    font-size: clamp(10px, 2vw, 18px) !important;
+}
+p {
+    color:rgb(45, 71, 98);
+    margin: 20px;
+    font-size: clamp(5px, 1.5vw, 17px) !important;
 }

@@ -6,22 +6,25 @@ body {
 }
 h1 {
     color: mistyrose;
-    font-size: 70px;
+    font-size: clamp(40px, 5vw, 70px);
     font-family: 'Optima';
 }
 h2 {
     color: mistyrose;
     font-family: 'Optima';
-    font-size: 40px;
+    font-size: clamp(25px, 3vw, 40px);
 }
 h3 {
     font-family: 'Optima';
+    font-size: clamp(20px, 2.5vw, 30px);
 }
 h4 {
     font-family: 'Optima';
+    font-size: clamp(12px, 2vw, 20px);
 }
 p {
     font-family: 'Optima';
+    font-size: clamp(8px, 1.8vw, 17px);
 }
 a {
     margin-left: 10px;
