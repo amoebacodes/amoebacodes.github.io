@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ISkillsCard, ISkillsLogo } from '../../interfaces'
 import { Input } from '@angular/core';
 import { trigger, state, style, transition, animate } from '@angular/animations';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 
 @Component({
@@ -31,6 +32,8 @@ export class SkillsCardComponent implements OnInit {
   mycard: ISkillsCard = {skillsCategory: this.skillCategory, state: 'default'}; 
 
   imageSets: ISkillsLogo[] = [];
+
+  faCoffee = faCoffee;
 
   constructor() {
     

@@ -9,6 +9,8 @@ export class ProjectsListComponent implements OnInit {
   projectFileNames:string[] = [
     'thisweb.json',
     'helomics.json',
+    'ftu.json',
+    'jeopardy.json',
   ]
   constructor() { }
 

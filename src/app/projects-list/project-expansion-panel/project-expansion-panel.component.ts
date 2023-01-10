@@ -25,7 +25,6 @@ export class ProjectExpansionPanelComponent implements OnInit {
       subscribe((data:any) => {
         if (data) {
           this.project = data; 
-          console.log(this.project)
           document.getElementById("link"+this.i.toString())?.setAttribute('href', data.link)
         }
       });

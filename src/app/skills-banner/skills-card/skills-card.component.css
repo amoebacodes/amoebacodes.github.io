@@ -4,7 +4,7 @@
 }
 
 .card {
-    /* box-shadow: 10px 10px 43px -18px rgba(0, 0, 0, 0.75); */
+    box-shadow: 10px 10px 43px -18px rgb(45, 71, 98);
     display: block;
     border-radius: 5%;
     height: 350px;
@@ -68,4 +68,9 @@ p {
     color:rgb(45, 71, 98);
     margin: 20px;
     font-size: clamp(5px, 1.5vw, 17px) !important;
+}
+.rotate-icon {
+    height:1.5vw; 
+    padding:1.5vw; 
+    fill:rgb(45, 71, 98)
 }

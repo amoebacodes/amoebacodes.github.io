@@ -12,6 +12,7 @@ import { LogoCaptionComponent } from './skills-banner/skills-card/logo-caption/l
 import { ProjectsListComponent } from './projects-list/projects-list.component';
 import { ProjectExpansionPanelComponent } from './projects-list/project-expansion-panel/project-expansion-panel.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 // import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
@@ -31,6 +32,7 @@ import { NavigationComponent } from './navigation/navigation.component';
     MatDividerModule,
     BrowserAnimationsModule,
     MatExpansionModule,
+    FontAwesomeModule,
     // AppRoutingModule,
   ],
   providers: [],

@@ -2,6 +2,6 @@
     "title": "My Personal Website",
     "link": "https://github.com/amoebacodes/amoebacodes.github.io",
     "summary": "This page you're currently on!",
-    "description": "I utilized the skills I gained during my summer internship (full-stack development) to create my own website in Angular. Being a amateur artist, I had a lot of fun channeling into my artistic side while gaining front-end development skills. I enjoyed learning animations, experimenting with colors, and designing the components in a user-friendly fashion.",
+    "description": "I utilized the skills I gained during my summer internship (full-stack development) to create my own website in Angular. Being a amateur artist, I had a lot of fun channeling into my artistic side while gaining front-end development skills. I enjoyed learning animations, experimenting with colors, receiving feedbacks from friends and designing the components in a user-friendly fashion.",
     "tags": ["front-end", "JavaScript", "HTML", "CSS", "Angular"]
 }

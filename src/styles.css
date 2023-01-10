@@ -20,7 +20,7 @@ h3 {
 }
 h4 {
     font-family: 'Optima';
-    font-size: clamp(12px, 2vw, 20px);
+    font-size: clamp(12px, 2vw, 18px);
 }
 p {
     font-family: 'Optima';
@@ -31,7 +31,7 @@ a {
     margin-right: 10px;
     font-family: 'Optima';
 }
-a:-webkit-any-link {
+a:any-link {
     color: rgb(125, 147, 93);
 }
 a:visited {

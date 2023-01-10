@@ -1,16 +1,19 @@
 .banner{
     display:block;
     background-color: rgb(241, 241, 241);
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
 }
 .divider{
     border-top-color: rgb(198, 214, 175);
-    margin-top: 50px;
+    margin-top: 4vw;
     width:100%;
     
 }
 .pastProj {
-    margin: 50px;
-    padding-left: 5%;
+    margin: 3vw;
+    /* padding-left: 5%; */
+}
+.projList{
+    display:flex;
 }
