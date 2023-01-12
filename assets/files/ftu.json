@@ -1,0 +1,7 @@
+{
+    "title": "Deep Learning Based Image Segmentation of Histological Stainings",
+    "link": "https://github.com/amoebacodes/HistologyImageSegmentation",
+    "summary": "Group Project for 02740: Bioimage Informatics at CMU",
+    "description": "Teamed up with two other students, we explored various deep learning based methods for segmenting out functional tissue units (FTU) from histological stainings in five different tissues: spleen, lung, large intestine, kidney, and prostate.\n \nMy personal contribution was building an in-house U-Net model based on the original U-Net architecture. I increased model complexity (for the complex shapes of the FTUs; by increasing the number of layers in the U-Net) but at the same time decrease the number of parameters (for faster compute; by decreasing the number of nodes in each layer). Having limited compute resources, I only trained my models for 20 epochs, but qualitatively, the models are producing resonable predictions of the FTU masks, suggesting that even with just 20 epochs, they are learning patterns and features of the FTU ground truth masks. \nPlease visit the source code page and refer to the report for detailed information on this project.",
+    "tags": ["Deep Learning", "Computer Vision"]
+}
