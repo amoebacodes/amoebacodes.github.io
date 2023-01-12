@@ -1,0 +1,7 @@
+{
+    "title": "Automating Protein Interaction Analysis",
+    "link": "https://github.com/amoebacodes/ICCImageAnalysis",
+    "summary": "Research at Dr. Robert Murphy's Lab",
+    "description": "We used immunocytochemistry as an indicator of potential protein interactions. Once stained with different fluorescent antibodies, a computer vision algorithm is applied to analyze the microscopy images and determine if two different proteins colocalize, or have overlapping signals. \n \nI based my methods on a previous lab member's preliminary work and finished automating and rigorously tested both the wet-lab and dry-lab procedures. The wet-lab procedures refer to all steps in immunocytochemistry, from maintaining cell culture, to fixing them, staining them with antibodies and taking fluorescence microscopy images. I automated the steps using the Cytomat incubator, the Spinnaker robot arm, the CyBio Felix liquid handler, the ThermoShaker, the Momentum scheduling software, and the Cx7 automated fluorescence microscope. The dry-lab procudures refer to seeded watershed segmentation and calculation of Mander's coefficient, and the code is included in the source code link. I have also documented the wet-lab portion in detail in a google doc linked to in the source code README file.",
+    "tags": ["Computer Vision", "Wet-lab Techniques", "Liquid Handler Scripting", "Automation"]
+}
