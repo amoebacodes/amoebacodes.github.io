@@ -1,0 +1,13 @@
+.chip-lists {
+    width: 80vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: -1vw;
+}
+::placeholder{
+    color: rgb(198, 214, 175) !important;
+    font-family: 'Optima';
+}
+input:focus::placeholder{
+    color: mistyrose !important;
+}

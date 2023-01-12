@@ -33,7 +33,7 @@
 .summary {
     margin-left: 50px;
     margin-right:150px;
-    color: mistyrose;
+    color: rgb(241,241,241);
     font-family: 'Optima';
     font-size: clamp(20px, 2vw, 40px);
     text-align: left;
@@ -59,9 +59,7 @@
     margin-right: 10vw;
     margin-top: 2vw;
     margin-bottom: 4vw;
-    color: mistyrose;
+    color: rgb(241,241,241);
     white-space: pre-wrap;
     font-size: clamp(10px, 1.25vw, 17px);
-    column-count: 2;
-    column-gap: 4vw;
 }

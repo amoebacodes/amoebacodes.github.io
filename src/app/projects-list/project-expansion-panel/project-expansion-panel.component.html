@@ -1,8 +1,8 @@
 <mat-expansion-panel class="panel">
-    <mat-expansion-panel-header>
+    <mat-expansion-panel-header class="header">
     <mat-panel-title>
         <h3 class="projectTitle">{{project.title}}</h3>
-        <a id="{{'link' + i}}" *ngIf="project.link != 'none'">Source Code</a>
+        <a href="{{project.link}}" *ngIf="project.link != 'none'">Source Code</a>
     </mat-panel-title>
     <mat-panel-description>
         <h4 class="projectSummary">{{project.summary}}</h4>

@@ -1,3 +1,4 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 html {
     background-color: rgb(45, 71, 98);
 }
@@ -10,7 +11,7 @@ h1 {
     font-family: 'Optima';
 }
 h2 {
-    color: mistyrose;
+    color: rgb(241,241,241);
     font-family: 'Optima';
     font-size: clamp(25px, 3vw, 40px);
 }
@@ -40,6 +41,68 @@ a:visited {
 a:focus{
     color: rgb(194, 117, 108);
 }
+.mat-form-field.mat-focused .mat-form-field-label {
+    color: mistyrose;
+    font-family: 'Optima';
+    /* font-size: 1vw !important; */
+}
+.mat-form-field.mat-focused .mat-form-field-ripple {
+    background-color: mistyrose;
+}
+.mat-form-field.mat-focused .mat-form-field-required-marker {
+    color: mistyrose;
+}
+.mat-form-field.mat-focused .mat-input-element {
+    color: mistyrose;
+}
+.mat-form-field .mat-input-element {
+    color: rgb(198, 214, 175);
+}
+.mat-form-field .mat-form-field-label {
+    color: rgb(198, 214, 175);
+    font-family: 'Optima';
+    /* font-size: 1.5vw !important; */
+}
+.mat-form-field .mat-form-field-underline {
+    background-color: rgb(198, 214, 175);
+}
+.mat-form-field .mat-form-field-ripple {
+    background-color: rgb(198, 214, 175);
+}
+.mat-form-field .mat-form-field-required-marker {
+    color: rgb(198, 214, 175);
+}
+.mat-chip {
+    color: rgb(45, 71, 98) !important;
+    font-family: 'Optima';
+}
+.mat-option-text {
+    color: rgb(45, 71, 98) !important;
+    font-family: 'Optima';
+}
+.mat-input-element {
+    caret-color: mistyrose;
+}
+/* .mat-form-field-appearance-legacy .mat-form-field-underline {
+    background-color: rgb(198, 214, 175) !important;
+}
+.mat-form-field {
+    font-family: 'Optima';
+}
+.mat-form-field-label{
+    color:rgb(198, 214, 175) !important;
+    font-size: 1.5vw !important;
+    margin-bottom:0.5vw !important;
+}.mat-hint{
+    color:mistyrose;
+}
+.mat-form-field-type-mat-native-select .mat-form-field-infix::after{
+    color:mistyrose
+}
+
+.mat-form-field.mat-focused .mat-form-field-label {
+    color: mistyrose;
+} */
 * {
     scroll-behavior: smooth;
 }

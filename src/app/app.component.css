@@ -11,7 +11,9 @@
     
 }
 .pastProj {
-    margin: 3vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 3vw;
     /* padding-left: 5%; */
 }
 .projList{

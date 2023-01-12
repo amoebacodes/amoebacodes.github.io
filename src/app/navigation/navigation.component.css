@@ -13,8 +13,9 @@
     z-index: 10;
   }
 .vertdiv {
-    color: rgb(198, 214, 175);
+    background: rgb(198, 214, 175);
     height: 35px;
+    border-right-width: 2px;
 }
 .navlink{
     background-color: rgb(45,71,98);
