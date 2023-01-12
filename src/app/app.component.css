@@ -4,11 +4,12 @@
     padding-top: 3vw;
     padding-bottom: 3vw;
 }
+.headline {
+    margin-bottom: 5vw;
+}
 .divider{
     border-top-color: rgb(198, 214, 175);
-    margin-top: 4vw;
     width:100%;
-    
 }
 .pastProj {
     margin-left: 5vw;
@@ -19,3 +20,10 @@
 .projList{
     display:flex;
 }
+[id]::before {
+    content: '';
+    display: block;
+    height: 4vw;
+    margin-top: -4vw;
+    visibility: hidden;
+  }

@@ -3,6 +3,7 @@
     column-gap: 2vw;
     margin-left: 5vw;
     margin-right: 5vw;
+    margin-bottom: 5vw;
 }
 .expand {
     display:grid;

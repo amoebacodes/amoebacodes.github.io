@@ -22,6 +22,8 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import {MatIconModule} from '@angular/material/icon';
 import { MatCommonModule } from '@angular/material/core';
 import {MatInputModule} from '@angular/material/input';
+import { PublicationComponent } from './publication/publication.component';
+import { ContactComponent } from './contact/contact.component';
 // import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
@@ -51,6 +53,8 @@ import {MatInputModule} from '@angular/material/input';
     ProjectExpansionPanelComponent,
     NavigationComponent,
     ProjectChipsComponent,
+    PublicationComponent,
+    ContactComponent,
   ],
   
   providers: [],

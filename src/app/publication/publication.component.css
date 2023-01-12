@@ -1,0 +1,21 @@
+.pub {
+    background-color: rgb(241,241,241);
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+.text{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.title {
+    color: rgb(45,71, 98);
+    margin-top: 5vw;
+}
+.desc {
+    margin-left: 3vw;
+    color: rgb(45,71, 98)
+}
+li::marker {
+    color: rgb(45,71, 98)
+}
