@@ -19,6 +19,7 @@ export class ProjectChipsComponent implements OnInit {
   filteredTags: Observable<string[]>;
   tags: string[] = [];
   allTags: string[] = ['Deep Learning', 
+                      'Automation',
                       'Software Development', 
                       'Full-stack Development', 
                       'Front-end Development', 
@@ -26,7 +27,11 @@ export class ProjectChipsComponent implements OnInit {
                       'Natural Language Processing',
                       'Database Management',
                       'UI/UX Design',
-                      'Automation',
+                      'Artificial Intelligence',
+                      'Wet-lab Techniques',
+                      'Liquid Handler Scripting',
+                      'Data Analysis',
+                      'Cloud/Cluster Computing',
                     ];
 
   @ViewChild('tagInput') tagInput: ElementRef<HTMLInputElement>;

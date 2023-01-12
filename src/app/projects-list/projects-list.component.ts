@@ -16,6 +16,11 @@ export class ProjectsListComponent implements OnInit {
     'helomics.json',
     'ftu.json',
     'jeopardy.json',
+    'qpcr.json',
+    'icc.json',
+    'cancer.json',
+    'axon.json',
+    'social.json',
   ]
   projects: IProjectDesc[] = [];
   projObs = new Observable<IProjectDesc[]>((observer) => {
