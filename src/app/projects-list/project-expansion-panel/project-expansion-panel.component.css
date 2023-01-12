@@ -17,6 +17,19 @@
     display:flex;
     flex-direction: column;
     margin: 30px;
+    color:rgb(45, 71, 98)
+}
+.tag {
+    display: flex;
+    background-color: rgb(230,230,230);
+    font-size: 1vw;
+    height: 2.8vw;
+    margin: 0.5vw;
+    text-align: center;
+    box-sizing:border-box;
+    border-radius: 3vw;
+    justify-content: center;
+    align-items: center;
 }
 .desc {
     color: rgb(45, 71, 98);

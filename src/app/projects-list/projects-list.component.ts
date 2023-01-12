@@ -59,12 +59,7 @@ export class ProjectsListComponent implements OnInit {
         }})
       }
       
-    })
-    
-    
-    console.log(this.filteredProjects)
-    
-    
+    })    
   }
 
 }

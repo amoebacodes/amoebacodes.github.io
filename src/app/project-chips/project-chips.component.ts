@@ -18,7 +18,16 @@ export class ProjectChipsComponent implements OnInit {
   tagCtrl = new FormControl('');
   filteredTags: Observable<string[]>;
   tags: string[] = [];
-  allTags: string[] = ['Deep Learning', 'Software Development', 'Full-stack Development', 'Front-end Development', 'Computer Vision', 'Natural Language Processing'];
+  allTags: string[] = ['Deep Learning', 
+                      'Software Development', 
+                      'Full-stack Development', 
+                      'Front-end Development', 
+                      'Computer Vision', 
+                      'Natural Language Processing',
+                      'Database Management',
+                      'UI/UX Design',
+                      'Automation',
+                    ];
 
   @ViewChild('tagInput') tagInput: ElementRef<HTMLInputElement>;
 

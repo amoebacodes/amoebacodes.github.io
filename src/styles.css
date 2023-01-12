@@ -41,10 +41,13 @@ a:visited {
 a:focus{
     color: rgb(194, 117, 108);
 }
+.mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: rgb(62, 88, 117);
+}
 .mat-form-field.mat-focused .mat-form-field-label {
     color: mistyrose;
     font-family: 'Optima';
-    /* font-size: 1vw !important; */
+    /* font-size: 1.5vw !important; */
 }
 .mat-form-field.mat-focused .mat-form-field-ripple {
     background-color: mistyrose;

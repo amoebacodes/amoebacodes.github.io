@@ -11,8 +11,7 @@
     <div class="body">
         <p class="desc">{{project.description}}</p>
         <div class="tags">
-            <a *ngFor="let tag of project.tags">#{{tag}}</a>
+            <p class="tag" *ngFor="let tag of project.tags">{{tag}}</p>
         </div>
     </div>
-    <!-- fixme: make selectable above -->
 </mat-expansion-panel>
