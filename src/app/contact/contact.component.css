@@ -1,0 +1,39 @@
+.contact {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 10vw;
+}
+p {
+    margin:0;
+}
+/* .mat-form-field-appearance-fill {
+    width: 80vw;
+}
+.content {
+    height: 10vw;
+}
+.button {
+    height: 3vw;
+    width: 6vw;
+    color: rgb(45,71,98);
+    border-radius: 1vw;
+    font-size: clamp(10px, 1vw, 18vw);
+    font-family: 'Optima'; 
+} */
+.link{
+    font-size: clamp(10px, 1.25vw, 20px);
+}
+.link:any-link {
+    color: rgb(198, 214, 175);
+}
+.link:visited {
+    color: rgb(246, 184, 177);
+}
+.link:hover{
+    color: rgb(246, 184, 177);
+}
+.mess {
+    margin-left: 2vw;
+    color: rgb(241,241,241);
+    margin-bottom:1vw;
+}

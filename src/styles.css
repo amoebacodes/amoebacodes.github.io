@@ -86,26 +86,6 @@ a:focus{
 .mat-input-element {
     caret-color: mistyrose;
 }
-/* .mat-form-field-appearance-legacy .mat-form-field-underline {
-    background-color: rgb(198, 214, 175) !important;
-}
-.mat-form-field {
-    font-family: 'Optima';
-}
-.mat-form-field-label{
-    color:rgb(198, 214, 175) !important;
-    font-size: 1.5vw !important;
-    margin-bottom:0.5vw !important;
-}.mat-hint{
-    color:mistyrose;
-}
-.mat-form-field-type-mat-native-select .mat-form-field-infix::after{
-    color:mistyrose
-}
-
-.mat-form-field.mat-focused .mat-form-field-label {
-    color: mistyrose;
-} */
 * {
     scroll-behavior: smooth;
 }
