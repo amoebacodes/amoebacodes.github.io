@@ -1,7 +1,7 @@
 {
     "title": "Jeopardy! Bot",
     "link": "https://github.com/amoebacodes/JeopardyBot",
-    "summary": "Group Project for 10671: Intermediate Deep Learning at CMU",
-    "description": "Watson is a Jeopardy! bot developed by IBM in 2010. Having learned many state-of-the-art models in our class, we wanted to explore current options for assembling our own Jeopardy! bot based on deep learning methods. We provided the bot with Wikipedia articles, and it would produce an answer to a given Jeopardy! question. In the end, we used FAISS to retrieve the 5 most relevant Wikipedia articles to the question, T5 to transform Jeopardy! question into a proper question form, and RoBERTa to answer the proper question given the relevant articles. \n \n My personal contribution was deploying FAISS and RoBERTa as well as assiting debugging question reformation with T5. During the process, I have come across various natural language processing (NLP) and sequence-to-sequence models and gained a well-rounded introdution to the NLP field.",
+    "summary": "",
+    "description": "Provided with Wikipedia articles, the bot can produce an answer to a given Jeopardy! question.\n \nWe used FAISS to retrieve the 5 most relevant Wikipedia articles to the question, T5 to transform the Jeopardy! question into proper question form, and RoBERTa to answer the question given the relevant articles.\n \nMy personal contribution was deploying FAISS and RoBERTa as well as assiting debugging question reformation with T5.",
     "tags": ["Deep Learning", "Natural Language Processing", "Cloud/Cluster Computing"]
 }
