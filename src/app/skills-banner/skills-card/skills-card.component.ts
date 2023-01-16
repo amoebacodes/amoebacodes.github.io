@@ -18,10 +18,10 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
           transform: 'rotateY(180deg)'
         })),
         transition('default => flipped', [
-          animate('200ms')
+          animate('500ms')
         ]),
         transition('flipped => default', [
-          animate('200ms')
+          animate('500ms')
         ])
       ])
     ]

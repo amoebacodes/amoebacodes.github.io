@@ -37,6 +37,7 @@
     font-family: 'Optima';
     font-size: clamp(20px, 2vw, 40px);
     text-align: left;
+    line-height: 3vw;
 }
 .link{
     font-size: clamp(10px, 1.25vw, 20px);
@@ -61,18 +62,21 @@
     margin-bottom: 0;
     color: rgb(241,241,241);
     white-space: pre-wrap;
-    font-size: clamp(10px, 1.25vw, 17px);
+    font-size: clamp(15px, 1.5vw, 19px);
+    line-height: 2vw;
 }
 .conclude {
     color: rgb(241,241,241);
-    font-size: clamp(10px, 1.25vw, 17px);
+    font-size: clamp(15px, 1.5vw, 19px);
+    line-height: 2vw;
     margin-bottom: 4vw;
     margin-left: 10vw;
     margin-right: 10vw;
 }
 .art {
     display:inline;
-    font-size: clamp(10px, 1.25vw, 17px);
+    font-size: clamp(15px, 1.5vw, 19px);
+    line-height: 2vw;
     margin-left: 0;
     margin-right: 0;
 }

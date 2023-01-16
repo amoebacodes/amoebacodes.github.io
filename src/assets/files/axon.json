@@ -2,6 +2,6 @@
     "title": "Discovery of Axon Caliber Changes Post-trauma",
     "link": "none",
     "summary": "Research at Dr. Vassilis Koliatsos' Lab",
-    "description": "I included this project because it is the turning-point that directed me to programming in the biological fields. I transitioned to doing data analysis at my lab in the beginning of the pandemic. Tasked with thousands of entries in Excel to filter through, I self-studied Python and eventually used Pandas and Numpy to do so programmatically. Then I used Prism to visualize the data and discovered a left-ward shift in axon diameter distributions in mouse corticospinal tract weeks after traumatic brain injury. The results are now published. Please see the publication section on this web for more information. ",
+    "description": "I transitioned to doing data analysis at my lab in the beginning of the pandemic. Tasked with thousands of entries in Excel to filter through, I self-studied Python and eventually used Pandas and Numpy to do so programmatically. Then I used Prism to visualize the data and discovered a left-ward shift in axon diameter distributions in mouse corticospinal tract weeks after traumatic brain injury. The results are now published. Please see the publication section on this web for more information. ",
     "tags": ["Data Analysis"]
 }

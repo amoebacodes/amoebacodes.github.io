@@ -2,6 +2,10 @@
     display: block;
     perspective: 600px;
 }
+.space {
+    height: 350px;
+    width: 92%;
+}
 
 .card {
     box-shadow: 10px 10px 43px -18px rgb(45, 71, 98);

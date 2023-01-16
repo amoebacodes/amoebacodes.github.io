@@ -1,7 +1,7 @@
 {
     "title": "Predicting Cancer Type from Transcriptome Profiles",
     "link": "https://github.com/amoebacodes/CancerTypePrediction",
-    "summary": "Group Project for 02620: Machine Learning for Scientists at CMU",
+    "summary": "",
     "description": "In a team of three, we each implemented one method to distinguish renal from adrenal pediatric cancer from transcriptome profiles. I used a feedforward multilayer perceptron to accomplish the task. All three methods are comparable, and all achieve F1 scores above 0.97. Through dimensionality reduction using PCA and t-SNE, we also discovered a subtype of pediatric renal cancer.",
     "tags": ["Deep Learning"]
 }

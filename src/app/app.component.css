@@ -17,6 +17,11 @@
     margin-top: 5vw;
     /* padding-left: 5%; */
 }
+.moreInfo {
+    margin-left: 8vw;
+    margin-right: 8vw;
+    color: mistyrose;
+}
 .projList{
     display:flex;
 }
